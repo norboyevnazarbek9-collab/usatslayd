@@ -21,8 +21,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-ADMIN_ID = int(os.environ.get("ADMIN_ID", 0))  # Admin telegram ID raqami
+BOT_TOKEN = os.environ.get("8681564120:AAGF7O5Hed7fxtESZJntxkRPH_9EwBEUBSw")
+ADMIN_ID = int(os.environ.get("8052376816", 0))  # Admin telegram ID raqami
 
 if not BOT_TOKEN:
     logger.error("BOT_TOKEN topilmadi! Render Environment Variables qismiga BOT_TOKEN ni kiriting.")
